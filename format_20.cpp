@@ -6,8 +6,8 @@ int main()
 	using namespace std;
 
 	int i{ 356 };
-	cout << format("|{:<7}|", i) << endl;   // |356    |
-	cout << format("|{:<+7}|", i) << endl;  // |+356   |
-	cout << format("|{:< 7}|", i) << endl;  // | 356   |
-	cout << format("|{:< 7}|", -i) << endl; // |-356   |
+	cout << format("|{:<7}|", i) << '\n';   // |356    |
+	cout << format("|{:<+7}|", i) << '\n';  // |+356   |
+	cout << format("|{:< 7}|", i) << '\n';  // | 356   |
+	cout << format("|{:< 7}|", -i) << '\n'; // |-356   |
 }
