@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format;
 
 	double dval = 3. / 7;
 	int width = 12;
