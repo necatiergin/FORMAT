@@ -5,12 +5,10 @@
 
 int main()
 {
-	using namespace std;
-
-	string name{ "Ali Aksoy" };
+	std::string name{ "Ali Aksoy" };
 	int id{ 78945 };
 	double dval{ 54.213455 };
-	string str;
+	std::string str;
 
 	format_to(back_inserter(str), "|{} {} {:.2f}|", id, name, dval);
 
@@ -18,10 +16,10 @@ int main()
 
 	//------------------------------------------------------------------------------------
 
-	list<char> clist;
+	std::list<char> clist;
 
 	format_to(front_inserter(clist), "|{} {} {:.2f}|", id, name, dval);
 
 	for (auto c : clist)
-		cout << c;		// |12.45 yoskA ilA 54987|
+		std::cout.put(c);		// |12.45 yoskA ilA 54987|
 }
