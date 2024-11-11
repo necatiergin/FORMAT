@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format;
 
 	cout << format("{:x}", 47802) << '\n'; // baba 
 	cout << format("{:X}", 47802) << '\n'; // BABA
