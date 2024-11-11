@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format;
 
 	int i{ 356 };
 	cout << format("|{:<7}|", i) << '\n';   // |356    |
