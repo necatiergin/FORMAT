@@ -4,7 +4,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::locale, std::cout, std::format;
 
 	locale::global(locale{ "turkish" }); // locale changed
 	cout << 123.96585 << '\n'; // 123.96585
