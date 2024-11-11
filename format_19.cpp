@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format;
 
 	double dval{ 3.14159 / 1.7 };
 	cout << format("|{:12g}|", dval) << '\n';                         // |     1.84799|
