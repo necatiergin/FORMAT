@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format;
 
 	int x{ 26 };
 	cout << format("|{:07d}|", x) << '\n';   // |0000026|
@@ -13,4 +13,3 @@ int main()
 	cout << format("|{:07X}|", x) << '\n';   // |000001A|
 	cout << format("|{:#07X}|", x) << '\n';  // |0X0001A|
 }
-
