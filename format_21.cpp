@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format, std::cin;
 
 	int x = 41396;
 
