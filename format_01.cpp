@@ -3,7 +3,7 @@
 
 int main()
 {
-	using namespace std;
+	using std::cout, std::format;
 
 	cout << format("{}\n", 10 > 5); // true
 	cout << format("{:d}\n", 10 > 5); // 1
