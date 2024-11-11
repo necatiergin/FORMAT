@@ -10,12 +10,12 @@ int main()
 
 	name = { "murat hepeyiler" };
 	cout << format("{}", name) << '\n'; //	murat hepeyiler
-	cout << format("|{:24s}|", name) << '\n'; //    |murat hepeyiler		|   
-	cout << format("|{:<24s}|", name) << '\n'; //   |murat hepeyiler		|
-	cout << format("|{:>24s}|", name) << '\n'; //   |	     murat hepeyiler|
-	cout << format("|{:^24s}|", name) << '\n'; //   |    murat hepeyiler    |
-	cout << format("|{:.^24s}|", name) << '\n'; //  |....murat hepeyiler....|
-	cout << format("|{:<24.5s}|", name) << '\n'; // |murat				    |
-	cout << format("|{:+>24.5s}|", name) << '\n'; //|++++++++++++++++++murat|
-	cout << format("|{:!^24.5s}|", name) << '\n'; //|!!!!!!!!!murat!!!!!!!!!|
+	cout << format("|{:24s}|", name) << '\n'; //    |murat hepeyiler         |   
+	cout << format("|{:<24s}|", name) << '\n'; //   |murat hepeyiler         |
+	cout << format("|{:>24s}|", name) << '\n'; //   |	  murat hepeyiler|
+	cout << format("|{:^24s}|", name) << '\n'; //   |     murat hepeyiler    |
+	cout << format("|{:.^24s}|", name) << '\n'; //  |.....murat hepeyiler....|
+	cout << format("|{:<24.5s}|", name) << '\n'; // |murat		         |
+	cout << format("|{:+>24.5s}|", name) << '\n'; //|+++++++++++++++++++murat|
+	cout << format("|{:!^24.5s}|", name) << '\n'; //|!!!!!!!!!!murat!!!!!!!!!|
 }
